@@ -70,6 +70,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      text-transform: uppercase;
   }
   
   
@@ -165,9 +166,12 @@
       background-color: #b6dbf1d2;
       align-items: center;
       width: 100%;
-      height: 600px;
+      height: 700px;
       margin-top: 60px;
       padding: 60px;
+      text-align: justify;
+
+     
     
   }
   
@@ -178,16 +182,22 @@
       font-weight: bold;
       letter-spacing: 1px;
       padding: 30px;
+
   }
   
   .autora_sobre{
       display: flex;
+      flex-direction: column;
+      align-items: center;
   }
   
   .autora_imagem {
-      width: 20%;
+      width: 50%;
+      height:30%;
       border-radius: 50%;
-      margin-right: 35px;
+      margin-bottom: 20px;
+
+      
       
   }
   
@@ -236,4 +246,32 @@
         margin-bottom: 180px;
         margin-left: 8px;
     }
+    .autora_imagem{
+        width: 10%;
+        border-radius: 50%;
+        margin-right: 35px;
+        
+    }
+    .autora_titulo{
+        text-align: center;
+        color: #ea4c89;
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        padding: 30px;
+    }
+    .autora{
+        height: 500px;
+    }
+    .autora_sobre{
+        display: flex;
+        flex-direction: row;
+        font-size: 20px;
+        
+    }
+    .suaHistoria_imagem{
+        width: 50%;
+        
+    }
+
 }
